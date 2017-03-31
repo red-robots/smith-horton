@@ -168,7 +168,7 @@ footer .site-info {
 	background-color: #4468A2;
 	font-size: 14px;
 	color: #ffffff;
-	height: 55px;
+	// height: 55px;
 	float:left;
 	padding-top: 4px;
 	padding-bottom: 3px;
@@ -179,8 +179,7 @@ footer .site-info {
 		color: #ffffff;
 		// height: 25px;
 		float:left;
-		padding-top: 4px;
-		padding-bottom: 3px;
+		padding: 10px 0;
 	}
 	a{ color: #ffffff; text-decoration: none; }
 	a:hover { color: #063583!important; text-decoration: none; }
