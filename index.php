@@ -44,7 +44,7 @@ get_header(); ?>
 
 	if ($wp_query->have_posts()) : while ($wp_query->have_posts()) :  $wp_query->the_post(); ?>
 
-	<div class="home-news-entry">
+	<div class="home-news-entry js-blocks">
     
 <div class="home-news-entry-category"><h3>BLOG</h3></div><div class="home-news-entry-date-wrapper"><div class="home-news-entry-date"><?php the_date('m/d'); ?></div></div>
     
@@ -85,7 +85,7 @@ get_header(); ?>
 </div>
 
 <div id="row2">
-<div id="row2-box1-wrapper">
+<div id="row2-box1-wrapper" class="js-blocks">
 <div id="row2-box1">
 <h2>Get In Touch</h2>
 
@@ -126,12 +126,14 @@ gcal link<a href="<?php the_field('linkedin_link2', 'option'); ?>" target="_blan
 </div>
 </div>
 
-<div id="row2-box2-wrapper">
+<div id="row2-box2-wrapper" class="js-blocks">
 <div id="row2-box2">
 <h2>Tell Us About Your Legal Issue</h2>
-<?php $recent = new WP_Query("page_id=107"); while($recent->have_posts()) : $recent->the_post();?>
-<?php the_field('legal_issue_form'); ?>
-<?php endwhile; wp_reset_postdata(); // end of the loop. ?>
+	<div class="form-wrap">
+	<?php $recent = new WP_Query("page_id=107"); while($recent->have_posts()) : $recent->the_post();?>
+	<?php the_field('legal_issue_form'); ?>
+	<?php endwhile; wp_reset_postdata(); // end of the loop. ?>
+	</div>
 </div>
 </div>
 </div> <!-- / row2 -->  

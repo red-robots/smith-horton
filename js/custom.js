@@ -40,15 +40,12 @@ jQuery(document).ready(function ($) {
 	});
 	
 	
-	// Equal heights divs
-	$('.blocks').matchHeight();
-	/*var byRow = $('body').hasClass('test-rows');
-		$('.blocks-container').each(function() {
-		 $(this).children('.blocks').matchHeight({
-			   byRow: byRow
-		//property: 'min-height'
-		});
-	});*/
+	/*
+	*
+	*	Equal Heights Divs
+	*
+	------------------------------------*/
+	$('.js-blocks').matchHeight();
 
 
 /*
