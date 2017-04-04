@@ -1335,7 +1335,8 @@ a:hover,a:active{outline:0}
 }@media screen and (min-width:900px){.main-navigation li{width:auto;font-size:16px}
 }@media screen and (min-width:1200px){.main-navigation li{font-size:16px}
 }.main-navigation a{display:block;text-decoration:none;color:#063483;padding:10px 0 10px 15px}
-.menu-toggle,.main-navigation.toggled ul{display:block}
+@media screen and (min-width:1200px){.main-navigation a{padding:10px 0 10px 25px}
+}.menu-toggle,.main-navigation.toggled ul{display:block}
 .menu-toggle ul.sub-menu,.main-navigation.toggled ul ul.sub-menu{background-color:rgba(255,255,255,0.1)}
 @media screen and (min-width:900px){.menu-toggle{display:none}
 .main-navigation ul{display:block}

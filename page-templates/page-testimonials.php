@@ -19,7 +19,7 @@ get_header(); ?>
 				$wp_query = new WP_Query();
 				$wp_query->query(array(
 				'post_type'=>'testimonial',
-				'posts_per_page' => 5
+				'posts_per_page' => -1
 			));
 				if ($wp_query->have_posts()) : ?>
     

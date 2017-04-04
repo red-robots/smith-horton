@@ -63,42 +63,6 @@ h6 {
 		font-weight: normal;
 }
 
-h1 {
-	font-weight: bold;
-	text-transform: uppercase;
-		font-family: 'Sanchez', serif;	
-}
-
-h2 {
-	font-weight: 800;
-	text-transform: uppercase;
-	color: #063583;
-	font-size:17px;
-	    font-family: 'PT Sans', sans-serif;
-		margin-bottom: 10px;
-}
-
-
-h3 {
-	font-weight: 800;
-	text-transform: uppercase;
-	color: #063583;
-	    font-family: 'PT Sans', sans-serif;
-}
-
-
-h4 {
-	font-size: 30px;
-	color: #0C92A5;
-			font-family: 'Sanchez', serif;	
-}
-
-html {
-	overflow-y: scroll;
-	font-size: 100%;
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-}
 a:focus {
 	outline: thin dotted;
 }
