@@ -1355,7 +1355,7 @@ a:hover {
 	
 	@media screen and (min-width: $deskwidth) {
 		display: block;
-		margin-top: 30px;
+		margin: 15px 0 30px 0;
 	}
 }
 
@@ -1372,10 +1372,19 @@ a:hover {
 	h2 {
 		color: #0C92A6;
 		font-size: 21px;
-		margin-bottom: 25px;
+		margin-bottom: 10px;
 		font-family: 'Sanchez', serif;
 
 	}
+}
+#quicklinks-social {
+	a {
+		display: inline-block;
+		&:hover img {
+			transform: scale(1.1);
+		}
+	}
+	
 }
 #row2-box1-right {
 	width: 50%;
@@ -1391,7 +1400,7 @@ a:hover {
 #row2-box1-right2 {
 	width: 50%;
 	float: left;
-	margin-top: 10px;
+	margin-top: 40px;
 }
 .gform_wrapper ul li.gfield {
 	clear: none!important;

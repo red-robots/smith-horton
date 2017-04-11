@@ -98,7 +98,7 @@ Indian Trail, NC 28079
 <div class="get-directions"><a href="https://www.google.com/maps/dir//118+Matthews-Indian+Trail+Rd,+Indian+Trail,+NC+28079/@35.079947,-80.6679879,17z/data=!4m13!1m4!3m3!1s0x885424fc9d419cd1:0x687f6ea9d8cdbb81!2s118+Matthews-Indian+Trail+Rd,+Indian+Trail,+NC+28079!3b1!4m7!1m0!1m5!1m1!1s0x885424fc9d419cd1:0x687f6ea9d8cdbb81!2m2!1d-80.6679879!2d35.079947" target="_blank">Get Directions +</a></div>
 </div>
 
-<div id="row2-box1-right">
+<div id="row2-box1-left">
 <h2>Mecklenburg County</h2>
 128 N. McDowell St.<br>
 Charlotte, NC 28204

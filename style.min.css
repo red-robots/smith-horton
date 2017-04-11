@@ -1783,15 +1783,17 @@ a:hover{color:#301845}
 .quick-links-page{margin-left:40px}
 .social-icons{width:100%;float:left;height:41px;padding-top:10px}
 .social-icons-content{float:left;width:95%;padding-right:0;text-align:center}
-@media screen and (min-width:1200px){.get-directions{display:block;margin-top:30px}
+@media screen and (min-width:1200px){.get-directions{display:block;margin:15px 0 30px 0}
 }.get-directions a:link{color:#fff;text-decoration:none}
 .get-directions a:visited{color:#fff;text-decoration:none}
 .get-directions a:hover{color:#0c92a5;text-decoration:none}
 @media screen and (min-width:1200px){#row2-box1-left{width:50%;float:left;height:150px;margin-top:55px}
-}#row2-box1-left h2{color:#0c92a6;font-size:21px;margin-bottom:25px;font-family:'Sanchez',serif}
+}#row2-box1-left h2{color:#0c92a6;font-size:21px;margin-bottom:10px;font-family:'Sanchez',serif}
+#quicklinks-social a{display:inline-block}
+#quicklinks-social a:hover img{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1)}
 #row2-box1-right{width:50%;float:left;height:auto;margin-top:55px}
 #row2-box1-left2{width:50%;float:left;margin-top:10px}
-#row2-box1-right2{width:50%;float:left;margin-top:10px}
+#row2-box1-right2{width:50%;float:left;margin-top:40px}
 .gform_wrapper ul li.gfield{clear:none !important;width:49%;float:left;margin-right:1%}
 .gform_wrapper .top_label .gfield_label{font-size:13px;font-weight:normal !important}
 section.testimonials{width:100%;float:left;margin:30px 0;padding:30px 0;text-align:center}
