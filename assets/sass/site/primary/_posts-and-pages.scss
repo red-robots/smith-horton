@@ -203,7 +203,7 @@
 	}
 }
 #row2-box1-wrapper {
-	width: 90%;
+	width: 100%;
 	padding-left: 5%;
 	padding-right: 5%;	
 	float: left;
@@ -219,7 +219,7 @@
 
 
 #row2-box2-wrapper {
-	width: 90%;
+	width: 100%;
 	padding-left: 5%;
 	padding-right: 5%;
 	float: left;
@@ -974,12 +974,11 @@ a:hover {
 
 #row1 {
 	width: 100%;
-	float: left;
 	height: auto;
+  margin-top: 40px;
 	@media screen and (min-width: $deskwidth) {
 		width: 100%;
-	    float: left;
-	    height: 360px;
+      margin-top: 0;
 	}
 }
 
@@ -997,7 +996,6 @@ a:hover {
 	    margin-left: 0px;
 	    margin-bottom: 0px;
 	    margin-right: 0%;
-	    height: 310px;
 	}
 	@media screen and (min-width: $deskwidth) {
 		width: 55%;
@@ -1005,7 +1003,6 @@ a:hover {
 	    margin-left: 0px;
 	    margin-bottom: 0px;
 	    margin-right: 2%;
-	    height: 330px;
 	}
 }
 
@@ -1026,7 +1023,6 @@ a:hover {
 	@media screen and (min-width: $deskwidth) {
 		width: 40%;
 		float: right;
-		height: 360px;
 		margin-left: 0px;
 		margin-bottom: 0px;
 	}
@@ -1073,6 +1069,7 @@ a:hover {
 #row1-box1-content {
 	padding-top: 0px;
 	float: left;
+    max-width: 100%;
 	@media screen and (min-width: $deskwidth) {
 		padding-top: 0px;
 	}
