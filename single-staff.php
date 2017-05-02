@@ -78,7 +78,7 @@ get_header(); ?>
                     <!-- -->
 	                <?php $id = get_the_id();
 	                if($id === 318 || $id === 320){?>
-                        <img src="<?php bloginfo( 'template_url' ); ?>/images/LEGALELITELOGO.jpg" alt="Legal Elite Logo" style="margin-bottom: 15px;">
+                        <img src="<?php bloginfo( 'template_url' ); ?>/images/LEGALELITELOGO.jpg" alt="Legal Elite Logo" class="legalelite">
 	                <?php }?>
 
                 </div>
