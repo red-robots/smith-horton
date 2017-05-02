@@ -34,7 +34,7 @@ get_header(); ?>
 							'post_type'      => 'post',
 							'posts_per_page' => 2,
 							'paged'          => $paged,
-							'post__not_in'   => array( $postid )
+							'post__not_in'   => array( )
 
 						) );
 

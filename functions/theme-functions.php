@@ -107,6 +107,7 @@ function pe_add_box()
   // Limit the excerpt without truncating the last word.
 // use like this > echo get_excerpt(100);
 function get_excerpt($count){
+    global $post;
   $permalink = get_permalink($post->ID);
   $excerpt = get_the_content();
   $excerpt = strip_tags($excerpt);
