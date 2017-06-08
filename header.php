@@ -47,11 +47,11 @@
 
 	<div id="logo-space"></div>
 
-    <div id="logo">
-	    <a href="<?php bloginfo('url'); ?>">
-	    	<img src="<?php bloginfo('template_url'); ?>/images/smith-horton-law.png" alt="" border="0">
-	    </a> 
-    </div><!-- #logo -->
+     <?php if(is_home()) { ?>
+          <h1 class="logo"><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
+        <?php } else { ?>
+          <div class="logo"><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></div>
+        <?php } ?>
     
 
 	<div id="header-phone-mobile"><a href="tel:7046250691">704.625.0691</a></div>
