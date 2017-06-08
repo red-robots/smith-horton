@@ -44,7 +44,7 @@ get_header(); ?>
 <?php if( get_field('featured') == 'Featured' ): ?>
 	<div class="staff-email">
 <a href="mailto:<?php the_field("email"); ?>">
-<img src="<?php bloginfo('template_url'); ?>/images/email.png" alt="" border="0"> <?php the_title(); ?>
+<img src="<?php bloginfo('template_url'); ?>/images/email.png" alt="Email" border="0"> <?php the_title(); ?>
 </a></div>		
 
 <?php endif; ?>
@@ -67,7 +67,7 @@ get_header(); ?>
 <?php if( get_field('featured') == 'Staff' ): ?>
 <div class="staff-email">
 <a href="mailto:<?php the_field("email"); ?>">
-<img src="<?php bloginfo('template_url'); ?>/images/email.png" alt="" border="0"> <?php the_title(); ?>
+<img src="<?php bloginfo('template_url'); ?>/images/email.png" alt="Email" border="0"> <?php the_title(); ?>
 </a></div>	
 
 <?php endif; ?>
