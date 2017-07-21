@@ -24,8 +24,10 @@ get_header(); ?>
 
 <div id="contact-box">
   <div id="contact-box-phone">
-  T: 704.625.0691
-  <br>F: 704.625.0692
+    <div itemscope itemtype="http://schema.org/LocalBusiness">
+      T: <span itemprop="telephone">(704) 625-0691</span>
+      <br>F: <span itemprop="fax">(704) 625-0692</span>
+    </div>
   </div><!-- contact-box phone -->
 <div id="contact-box-content">
 
