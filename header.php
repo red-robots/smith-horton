@@ -33,7 +33,46 @@
 
 <?php the_field('google_analytics', 'option'); ?>
 
-
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Organization",
+  "name" : "Smith Horton Law",
+  "image" : "https://smithhorton.com/bw/wp-content/themes/smith-horton/images/smith-horton-law.png",
+  "url" : "https://smithhorton.com",
+  "parentOrganization": 
+    [
+        {
+            "@type": "LocalBusiness",
+            "name" : "Smith Horton Law",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Indian Trail",
+                "addressRegion": "NC",
+                "postalCode": "28079",
+                "streetAddress": "118 Matthews-Indian Trail Rd"
+            },
+            "telephone" : "(704) 625-0691",
+            "image" : "https://smithhorton.com/bw/wp-content/themes/smith-horton/images/smith-horton-law.png"
+        },
+        {
+            "@type": "LocalBusiness",
+            "name" : "Smith Horton Law",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Charlotte",
+                "addressRegion": "NC",
+                "postalCode": "28204",
+                "streetAddress": "128 N McDowell St"
+            },
+            "telephone" : "(704) 625-0691 ",
+            "image" : "https://smithhorton.com/bw/wp-content/themes/smith-horton/images/smith-horton-law.png"
+        }
+    ]
+  
+  
+}
+</script>
 
 </head>
 
