@@ -199,7 +199,8 @@ footer .site-info {
 	height: 100px;
 	background: {
 		image: url(images/smith-horton-law.png);	
-		size: cover;
+		size: contain;
+		repeat: no-repeat;
 	}
 	
 
@@ -211,11 +212,9 @@ footer .site-info {
 	@media screen and (min-width: $tabwidth) {
 		width: 150px;
 	    height: 150px;
-	    position: absolute;
-	    left: 0px;
-	    top: 30px;
-	    text-align: left;
-	    z-index: 9999999;
+	}
+	@media screen and (min-width: $deskwidth) {
+		top: 30px;
 	}
 }
 .logo a, h1.logo a{
@@ -610,7 +609,7 @@ a.comment-edit-link:hover {
 	    height: 150px;
 	    position: absolute;
 	    left: 0px;
-	    top: 50px;
+	    top: 30px;
 	    text-align: left;
 	    z-index: 9999999;
  	}
