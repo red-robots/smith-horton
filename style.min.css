@@ -1537,7 +1537,7 @@ a.comment-reply-link:hover,a.comment-edit-link:hover{color:#673695}
 @media screen and (min-width:1200px){#banner-photo{width:100%;height:auto;float:left;position:relative;top:0}
 }#banner-photo img{width:110%}
 #logo{width:25%;height:auto;position:absolute;left:0;top:0;text-align:left;z-index:9999999}
-@media screen and (min-width:1200px){#logo{width:150px;height:150px;position:absolute;left:0;top:30px;text-align:left;z-index:9999999}
+@media screen and (min-width:1200px){#logo{width:150px;height:150px;position:absolute;left:0;top:50px;text-align:left;z-index:9999999}
 }#logo img{width:100%;height:auto;max-width:140px}
 .menu-practice-areas-container ul li{font-size:14px !important;font-family:"Sanchez",serif !important}
 .menu-practice-areas-container ul li ul li{font-size:14px !important;font-family:"PT Sans",sans-serif !important}
