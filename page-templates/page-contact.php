@@ -24,8 +24,10 @@ get_header(); ?>
 
 <div id="contact-box">
   <div id="contact-box-phone">
-  T: 704.625.0691
-  <br>F: 704.625.0692
+    <div itemscope itemtype="http://schema.org/LocalBusiness">
+      T: <span itemprop="telephone">(704) 625-0691</span>
+      <br>F: <span itemprop="fax">(704) 625-0692</span>
+    </div>
   </div><!-- contact-box phone -->
 <div id="contact-box-content">
 
@@ -44,7 +46,7 @@ get_header(); ?>
 <?php if( get_field('featured') == 'Featured' ): ?>
 	<div class="staff-email">
 <a href="mailto:<?php the_field("email"); ?>">
-<img src="<?php bloginfo('template_url'); ?>/images/email.png" alt="" border="0"> <?php the_title(); ?>
+<img src="<?php bloginfo('template_url'); ?>/images/email.png" alt="Email" border="0"> <?php the_title(); ?>
 </a></div>		
 
 <?php endif; ?>
@@ -67,7 +69,7 @@ get_header(); ?>
 <?php if( get_field('featured') == 'Staff' ): ?>
 <div class="staff-email">
 <a href="mailto:<?php the_field("email"); ?>">
-<img src="<?php bloginfo('template_url'); ?>/images/email.png" alt="" border="0"> <?php the_title(); ?>
+<img src="<?php bloginfo('template_url'); ?>/images/email.png" alt="Email" border="0"> <?php the_title(); ?>
 </a></div>	
 
 <?php endif; ?>

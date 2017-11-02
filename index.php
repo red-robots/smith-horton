@@ -128,10 +128,10 @@ get_header(); ?>
                 <div id="row2-box1-right2">
                     <div id="quicklinks-social"><a href="<?php the_field( 'facebook_link', 'option' ); ?>"
                                                    target="_blank"><img
-                                    src="<?php bloginfo( 'template_url' ); ?>/images/icon-lg-facebook.png" alt=""
+                                    src="<?php bloginfo( 'template_url' ); ?>/images/icon-lg-facebook.png" alt="Facebook"
                                     border="0"></a><!-- twitter--><a
                                 href="<?php the_field( 'twitter_link', 'option' ); ?>" target="_blank"><img
-                                    src="<?php bloginfo( 'template_url' ); ?>/images/icon-lg-twitter.png" alt=""
+                                    src="<?php bloginfo( 'template_url' ); ?>/images/icon-lg-twitter.png" alt="Twitter"
                                     border="0"></a>
 
                         <!--<div class="linkedin-link"><a href="<?php the_field( 'linkedin_link', 'option' ); ?>" target="_blank"><img src="<?php bloginfo( 'template_url' ); ?>/images/linkedin.png" alt="" border="0"></a><div class="linkedin-link-text"><a href="<?php the_field( 'linkedin_link', 'option' ); ?>" target="_blank">D. Horton</a></div></div>

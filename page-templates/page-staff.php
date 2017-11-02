@@ -74,7 +74,7 @@ if( !empty($image) ): ?>
 
 <div class="staff-box-content"><div class="staff-email">
 <a href="mailto:<?php the_field("email"); ?>">
-<img src="<?php bloginfo('template_url'); ?>/images/email.png" alt="" border="0"></a></div>
+<img src="<?php bloginfo('template_url'); ?>/images/email.png" alt="Email" border="0"></a></div>
 <h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
 <h3><a href="<?php the_permalink() ?>"><?php the_field("title"); ?> ></a></h3>
 
@@ -131,7 +131,7 @@ if( !empty($image) ): ?>
 
 <div class="staff-box-content"><div class="staff-email">
 <a href="mailto:<?php the_field("email"); ?>">
-<img src="<?php bloginfo('template_url'); ?>/images/email.png" alt="" border="0"></a></div><h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
+<img src="<?php bloginfo('template_url'); ?>/images/email.png" alt="Email" border="0"></a></div><h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
 <h3><a href="<?php the_permalink() ?>"><?php the_field("title"); ?> ></a></h3></div>
 </div>
 <?php else : ?> 

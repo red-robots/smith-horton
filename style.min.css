@@ -1467,9 +1467,11 @@ footer .site-info{width:100%;text-align:center;background-color:#4468a2;font-siz
 }footer .site-info a{color:#fff;text-decoration:none}
 footer .site-info a:hover{color:#063583 !important;text-decoration:none}
 .sub-menu .current_page_item>a{color:#fff}
-.logo,h1.logo{width:525px;height:200px;background-image:url(images/logo.png);z-index:1;margin-top:-20px}
-.logo a,h1.logo a{width:525px;height:200px;display:block;text-indent:-9000px}
-section[role="banner"]{margin-bottom:48px}
+.logo,h1.logo{width:100px;height:100px;background-image:url(images/smith-horton-law.png);background-size:cover;position:absolute;left:0;top:0;text-align:left;z-index:9999999}
+@media screen and (min-width:600px){.logo,h1.logo{width:150px;height:150px;position:absolute;left:0;top:30px;text-align:left;z-index:9999999}
+}.logo a,h1.logo a{width:100px;height:100px;display:block;text-indent:-9000px}
+@media screen and (min-width:600px){.logo a,h1.logo a{width:150px;height:150px}
+}section[role="banner"]{margin-bottom:48px}
 .widget-area .widget{-webkit-hyphens:auto;-moz-hyphens:auto;-ms-hyphens:auto;hyphens:auto;margin-bottom:48px;word-wrap:break-word}
 .widget-area .widget h3{margin-bottom:24px}
 .widget-area .widget p,.widget-area .widget li,.widget-area .widget .textwidget{font-size:13px;line-height:1.846153846}
