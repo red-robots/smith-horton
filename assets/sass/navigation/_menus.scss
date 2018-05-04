@@ -3,7 +3,7 @@
 	display: block;
 	float: left;
 	width: 100%;
-	font-family: 'Sanchez', serif;
+	font-family: $font-sanchez;
 	@media screen and (min-width: $midwidth) {
 		// width: auto;
 		float: right;
@@ -299,7 +299,7 @@ button.menu-toggle {
 		width: 910px;
 		float: right;
 		// padding-top: 55px;
-		font-family: 'Sanchez', serif;
+		font-family: $font-sanchez;
 		visibility: visible;
 		display: inherit;
 		position:relative;
@@ -330,7 +330,7 @@ button.menu-toggle {
 
 // #mobile-navigation ul li {
 //     font-size: 16px!important;
-//     font-family: 'Sanchez', serif!important;
+//     font-family: $font-sanchez!important;
 
 // }
 
@@ -340,7 +340,7 @@ button.menu-toggle {
 
 // #mobile-navigation ul li ul li {
 //     font-size: 14px!important;
-//     font-family: 'Sanchez', serif!important;
+//     font-family: $font-sanchez!important;
 // }
 
 // #mobile-navigation ul li ul li  a {
